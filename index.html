@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AeroVia Express</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Ofertas y destinos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Mis viajes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Centro de ayuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Estado de vuelo</a>
+            </li>
+          </ul>
+          <form class="d-flex rounded-pill">
+            <button class="btn" type="submit" id="login">Iniciar Sesión</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="card mb-3" style="max-width: 100%; background-color: #62DAD3;">
+      <div class="row g-0">
+        <div class="col-md-8 p-3">
+          <div class="card-body">
+            <h2 class="card-title">¡Vacaciones de verano!</h2>
+            <h5 class="card-title">Vuela por Chile y Sudamérica con hasta 40% de descuento</h5><br>
+            <p class="card-text">Encuentra paquetes, hoteles, seguros y arriendo de autos en AeroVia Express</p>
+            <a href="#">Compra aquí</a>
+          </div>
+        </div>
+        <div class="col-md-4" style="text-align: right;">
+          <img src="assets/img/polynesia.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>
+    
+    <div class="container p-4 mt-3 bg-body rounded";>
+      <form action="#">
+        <div class="input-group mb-3">
+          <button class="btn btn-outline-secondary" type="button" id="botonVuelos">Vuelos</button>
+          <button class="btn btn-outline-secondary" type="button" id="botonPaquetes">Paquetes</button>
+          <button class="btn btn-outline-secondary" type="button" id="botonHoteles">Hoteles</button>
+          <button class="btn btn-outline-secondary" type="button" id="botonAutos">Autos</button>
+          <button class="btn btn-outline-secondary" type="button" id="botonSeguros">Seguros</button>
+          <button class="btn btn-outline-secondary" type="button" id="botonUpgrade">Upgrade</button>
+        </div>
+        <div class="input-group mb-3">
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" id="Boton1" data-bs-toggle="dropdown"
+            aria-expanded="false">Ida y Vuelta </button>
+          <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+            aria-expanded="false">Economy </button>
+          <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+            aria-expanded="false">1 pasajero </button>
+          <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Origen" aria-label="Origen">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Destino" aria-label="Destino">
+          </div>
+          <div class="col pt-2 etiquetafecha bg-body rounded">
+            <span>Fecha Ida</span>
+          </div>
+          <div class="col">
+            <input type="date" class="form-control" name="ida" aria-label="ida">
+          </div>
+          <div class="col pt-2 etiquetafecha bg-body rounded">
+            <span>Fecha Vuelta</span>
+          </div>
+          <div class="col">
+            <input type="date" class="form-control" name="vuelta" aria-label="vuelta" disabled>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-danger">Buscar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
